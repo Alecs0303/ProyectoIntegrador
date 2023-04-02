@@ -238,5 +238,25 @@
   "telefono": "ddd",
   "direccion": "ddd",
   "img": "images/imgusers/avatar1676345291582.png"
+ },
+ {
+  "id": 25,
+  "nombre": "Juan",
+  "apellido": "Parra",
+  "email": "juanparra@gmail.com",
+  "password": "",
+  "telefono": "3620584562",
+  "direccion": "Diag. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680479500146.jpg"
+ },
+ {
+  "id": 26,
+  "nombre": "Juan",
+  "apellido": "Parra",
+  "email": "juanparra@gmail.com",
+  "password": "123",
+  "telefono": "3620584562",
+  "direccion": "Diag. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680479508022.jpg"
  }
 ]
