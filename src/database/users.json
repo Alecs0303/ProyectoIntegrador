@@ -207,7 +207,7 @@
   "password": "",
   "telefono": "",
   "direccion": "",
-  "img": "ìmages/imgusers/avatar1676340765027.png"
+  "img": "images/imgusers/avatar1676340765027.png"
  },
  {
   "id": 22,
@@ -217,7 +217,7 @@
   "password": "",
   "telefono": "",
   "direccion": "",
-  "img": "ìmages/imgusers/avatar1676340906432.png"
+  "img": "images/imgusers/avatar1676340906432.png"
  },
  {
   "id": 23,
@@ -227,7 +227,7 @@
   "password": "",
   "telefono": "",
   "direccion": "",
-  "img": "ìmages/imgusers/avatar1676340940458.png"
+  "img": "images/imgusers/avatar1676340940458.png"
  },
  {
   "id": 24,
@@ -237,6 +237,6 @@
   "password": "122",
   "telefono": "ddd",
   "direccion": "ddd",
-  "img": "ìmages/imgusers/avatar1676345291582.png"
+  "img": "images/imgusers/avatar1676345291582.png"
  }
 ]
