@@ -5,16 +5,6 @@ const dataUsers = path.join(__dirname, '../database/users.json');
 const users = JSON.parse(fs.readFileSync(dataUsers, 'utf-8'));
 const user = require("../model/user");
 
-//muestra la vista de login:
-// const login = (req, res) => {
-//         res.render("login");
-//     };
-//procesa el metodo post y validaciones del login:
-// const formLogin  = (req, res) => {
-//   return res.send(req.body);
-//     };
-
-
  const register = (req, res) => {
     res.render("register");
     };
