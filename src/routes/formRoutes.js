@@ -6,6 +6,7 @@ const {body} = require("express-validator");
 const {register,formRegister} = require("../controllers/formControllers");
 const {login, formLogin} = require("../controllers/usersControllers");
 const {perfil} = require("../controllers/perfilControllers")
+const {hashPasswordMiddleware} = require("../../middlewares/encriptar")
 /* const router = require("./"); */
 
 const validations = [
@@ -29,7 +30,6 @@ let storage = multer.diskStorage({
 
 const upload = multer({storage});
 
-
 /* formularios de login- rutas*/
 routerForm.get("/login", login);
 routerForm.post("/login", formLogin);
@@ -38,9 +38,6 @@ routerForm.get("/perfil",perfil)
 
 /* formularios de registros-rutas */
 routerForm.get("/register", register);
-routerForm.post("/register/newuser",upload.single("avatar"),validations, formRegister); 
-
-
-
+routerForm.post("/register/newuser",upload.single("avatar"),validations,hashPasswordMiddleware,formRegister); 
 
 module.exports = routerForm;
