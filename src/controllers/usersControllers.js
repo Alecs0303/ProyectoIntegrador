@@ -21,15 +21,15 @@ const formLogin = async (req, res) => {
     const passwordMatch = await bcrypt.compare(password, user.password);
     if (passwordMatch) {
       // La contraseña coincide, inicia sesión y redirige al usuario
-      // (aquí debes implementar la lógica de inicio de sesión, como guardar el usuario en la sesión)
+      // (aquí se implementa  la lógica de inicio de sesión, como guardar el usuario en la sesión)
       req.session.user = user;
       res.render('users', { user });
     } else {
-      res.status(400).send('Contraseña incorrecta');
+      res.render('login');
     }
   } catch (error) {
-    console.error(error);
-    res.status(500).send('Error al verificar la contraseña');
+    res.render('login');
+    alert("Error al verificar la contraseña");
   }
 
 
