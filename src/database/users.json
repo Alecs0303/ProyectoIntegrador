@@ -258,5 +258,15 @@
   "telefono": "3620584562",
   "direccion": "Diag. 89 # 85 - 63",
   "img": "images/imgusers/avatar1680479508022.jpg"
+ },
+ {
+  "id": 27,
+  "nombre": "Ana",
+  "apellido": "Paola",
+  "email": "anapao@gmail.com",
+  "password": "$2a$10$IkO.r39YLTLs.tLMGFHmK.Xgrlgzgv4bnq1d1lAtogSYMK4MAtO2S",
+  "telefono": "3620584789",
+  "direccion": "Diag. 89 # 85 - 85",
+  "img": "images/imgusers/avatar1680500070525.jpg"
  }
 ]
