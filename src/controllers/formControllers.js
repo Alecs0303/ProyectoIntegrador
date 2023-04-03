@@ -5,18 +5,6 @@ const dataUsers = path.join(__dirname, '../database/users.json');
 const users = JSON.parse(fs.readFileSync(dataUsers, 'utf-8'));
 const user = require("../model/user");
 
-//muestra la vista de login:
-const login = (req, res) => {
-        res.render("login");
-    };
-//procesa el metodo post y validaciones del login:
-const formLogin  = (req, res) => {
-  return res.send(req.body);
-    };
-
-
-
-
  const register = (req, res) => {
     res.render("register");
     };
@@ -30,7 +18,7 @@ const formLogin  = (req, res) => {
         const newIdUser =  users[users.length - 1].id + 1;
         let newImage;
         if(img.length > 0){
-            newImage = `ìmages/imgusers/${img}`
+            newImage = `images/imgusers/${img}`
         } 
         const obj = {
             id: newIdUser,
@@ -52,8 +40,6 @@ const formLogin  = (req, res) => {
 }; 
 
 module.exports = {
-    login,
-    formLogin,
     register,
     formRegister,
    

@@ -20,7 +20,7 @@ const getCreateProduct = (req,res) => {
 
     let newImage;
     if(img.length > 0){
-        newImage = `ìmages/imgproducts/${img}`
+        newImage = `images/imgproducts/${img}`
     } 
     const obj = {
         id: newIdProduct,

@@ -207,7 +207,7 @@
   "password": "",
   "telefono": "",
   "direccion": "",
-  "img": "ìmages/imgusers/avatar1676340765027.png"
+  "img": "images/imgusers/avatar1676340765027.png"
  },
  {
   "id": 22,
@@ -217,7 +217,7 @@
   "password": "",
   "telefono": "",
   "direccion": "",
-  "img": "ìmages/imgusers/avatar1676340906432.png"
+  "img": "images/imgusers/avatar1676340906432.png"
  },
  {
   "id": 23,
@@ -227,7 +227,7 @@
   "password": "",
   "telefono": "",
   "direccion": "",
-  "img": "ìmages/imgusers/avatar1676340940458.png"
+  "img": "images/imgusers/avatar1676340940458.png"
  },
  {
   "id": 24,
@@ -237,6 +237,36 @@
   "password": "122",
   "telefono": "ddd",
   "direccion": "ddd",
-  "img": "ìmages/imgusers/avatar1676345291582.png"
+  "img": "images/imgusers/avatar1676345291582.png"
+ },
+ {
+  "id": 25,
+  "nombre": "Juan",
+  "apellido": "Parra",
+  "email": "juanparra@gmail.com",
+  "password": "",
+  "telefono": "3620584562",
+  "direccion": "Diag. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680479500146.jpg"
+ },
+ {
+  "id": 26,
+  "nombre": "Juan",
+  "apellido": "Parra",
+  "email": "juanparra@gmail.com",
+  "password": "123",
+  "telefono": "3620584562",
+  "direccion": "Diag. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680479508022.jpg"
+ },
+ {
+  "id": 27,
+  "nombre": "Ana",
+  "apellido": "Paola",
+  "email": "anapao@gmail.com",
+  "password": "$2a$10$IkO.r39YLTLs.tLMGFHmK.Xgrlgzgv4bnq1d1lAtogSYMK4MAtO2S",
+  "telefono": "3620584789",
+  "direccion": "Diag. 89 # 85 - 85",
+  "img": "images/imgusers/avatar1680500070525.jpg"
  }
 ]
