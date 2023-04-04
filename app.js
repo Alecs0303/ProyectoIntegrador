@@ -12,6 +12,7 @@ const routerProducts = require("./src/routes/productsRoutes");
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "./src/views"));
 const morgan = require("morgan");
+const { loguserMiddleware } = require("./middlewares/loguser");
 app.use(morgan("dev"));
 
 
@@ -21,6 +22,7 @@ app.use(methodOverride('_method'));
 app.use(session({secret: "secreto",
 resave: false,
 saveUninitialized: false}));
+app.use(loguserMiddleware);
 
 app.use(rutas);
 app.use(categoriesProduct); 
