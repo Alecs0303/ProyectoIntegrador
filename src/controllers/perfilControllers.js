@@ -14,6 +14,4 @@ const perfil = (req, res) => {
   }
 };
 
-module.exports = {
-  perfil,
-};
+module.exports = {perfil};
