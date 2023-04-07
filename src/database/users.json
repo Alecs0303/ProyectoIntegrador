@@ -268,5 +268,55 @@
   "telefono": "3620584789",
   "direccion": "Diag. 89 # 85 - 85",
   "img": "images/imgusers/avatar1680500070525.jpg"
+ },
+ {
+  "id": 28,
+  "nombre": "Paco",
+  "apellido": "Rojas",
+  "email": "pacorojas@hotmail.com",
+  "password": "$2a$10$gkXi3c4qLJMUE4bWf5WnwOh36RVg0Fj.LTQcEqUWkHRnvVffJQ43i",
+  "telefono": "311370172",
+  "direccion": "Diag. 89 # 26 - 63",
+  "img": "images/imgusers/avatar1680563643394.jpg"
+ },
+ {
+  "id": 29,
+  "nombre": "leo",
+  "apellido": "nsito",
+  "email": "leonsito@gmail.com",
+  "password": "",
+  "telefono": "3453201464",
+  "direccion": "Av. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680572631395.jpg"
+ },
+ {
+  "id": 30,
+  "nombre": "leo",
+  "apellido": "nsito",
+  "email": "leonsito@gmail.com",
+  "password": "$2a$10$T1gnsQF9V1Rv0dd3FgdjkOGd/HS6.2lBtW0AjqXfgkZjz4wlUzYZq",
+  "telefono": "3620584562",
+  "direccion": "Av. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680573846042.jpg"
+ },
+ {
+  "id": 31,
+  "nombre": "Pedro",
+  "apellido": "Paramo",
+  "email": "pp@hotmail.com",
+  "password": "$2a$10$J/hCFqAIsiqMYpbo28k2Pu1PlkbWXFLkVSyvNM/z5w/YtDVfypzdu",
+  "telefono": "3684259632",
+  "direccion": "Av. 89 # 63 - 63",
+  "img": "images/imgusers/avatar1680574007644.jpg"
+ },
+ {
+  "id": 32,
+  "nombre": "paco",
+  "apellido": "olivares",
+  "email": "pacoliva@gmail.com",
+  "password": "$2a$10$S2twbc0n46LHT34pyd3ZP.GrtXaxKUr1Fg/Jl2Ro5k3u7yUqfOIq2",
+  "telefono": "6325894263",
+  "direccion": "Diag. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1680575553999.jpg"
  }
 ]
