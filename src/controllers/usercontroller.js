@@ -1,0 +1,26 @@
+const UserModel = require("../model/userModel.js")
+
+async function crearUsuario(req, res){
+
+    const{name, email, password, last_name, phone, address, avatar } = req.body;
+
+    try{
+        const newUser = await UserModel.create({
+            name,
+            email,
+            password,
+            last_name,
+            phone,
+            address,
+            avatar
+        })
+
+        res.status(200).json({ message: "Usuario creado exitosamente", user: newUser });
+
+    }catch(error){
+        console.error(error);
+        res.status(500).json({ message: "Error al crear usuario" });
+    }
+}
+
+module.exports = {crearUsuario}
