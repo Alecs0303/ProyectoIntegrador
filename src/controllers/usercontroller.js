@@ -5,6 +5,13 @@ async function crearUsuario(req, res){
     const{name, email, password, last_name, phone, address, avatar } = req.body;
 
     try{
+
+        const img = req.file.filename; 
+
+        if(img.length > 0){
+            avatar = `images/imgusers/${img}`
+        }
+
         const newUser = await UserModel.create({
             name,
             email,
