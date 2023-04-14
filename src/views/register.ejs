@@ -29,7 +29,7 @@
             <%}%> 
          
 
-        <form class="form-register" action="/register/newuser" method="POST" enctype="multipart/form-data">
+        <form class="form-register" action="/crearUsuario" method="POST" enctype="multipart/form-data">
             <legend>Registrarse</legend><br>
             <label for="Nombre">Nombre</label>
             <input type="text" name="nombre" id="" placeholder="Nombre" value= "<%= locals.values ? values.nombre: ""  %>" /> <br>

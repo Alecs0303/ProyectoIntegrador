@@ -318,5 +318,25 @@
   "telefono": "6325894263",
   "direccion": "Diag. 89 # 85 - 63",
   "img": "images/imgusers/avatar1680575553999.jpg"
+ },
+ {
+  "id": 33,
+  "nombre": "jul",
+  "apellido": "gina",
+  "email": "b@gmail.com",
+  "password": "$2a$10$7Aru0pWVX7ML9eV9ePROyuAXLqSGPUfODpDEn45Xd0cvWFhkFMEma",
+  "telefono": "301706666",
+  "direccion": "hhh",
+  "img": "images/imgusers/avatar1680935917631.png"
+ },
+ {
+  "id": 34,
+  "nombre": "Juan",
+  "apellido": "Parra",
+  "email": "leonsito@gmail.com",
+  "password": "$2a$10$dXqG5A/g0eicfhfBkp0UhuqA396NRGOhEwmvIn5d5s5w8kPpZ5InC",
+  "telefono": "3620584562",
+  "direccion": "Av. 89 # 85 - 63",
+  "img": "images/imgusers/avatar1681077453271.jpg"
  }
 ]
