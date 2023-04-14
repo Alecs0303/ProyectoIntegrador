@@ -318,5 +318,15 @@
   "telefono": "6325894263",
   "direccion": "Diag. 89 # 85 - 63",
   "img": "images/imgusers/avatar1680575553999.jpg"
+ },
+ {
+  "id": 33,
+  "nombre": "Juan",
+  "apellido": "Parra",
+  "email": "pp@hotmail.com",
+  "password": "$2a$10$cyvZTFucPMfJTwLvBiGhD.KS8g7GysqOOJ.0yG.5xjQTpQEhdwT4.",
+  "telefono": "3620584562",
+  "direccion": "Diag. 89 # 85 - 85",
+  "img": "images/imgusers/avatar1681176263779.jpg"
  }
 ]
