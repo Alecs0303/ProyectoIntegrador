@@ -1,10 +1,12 @@
+const db = require('../database/models/db')
 const path = require('path');
 const fs = require("fs");
 /* const { reset } = require('nodemon'); */
 const allProducts = path.join(__dirname, "../database/products.json");
 const products = JSON.parse(fs.readFileSync(allProducts, 'utf-8'));
 /*  console.log(products);  */
-const getAllproducts = (req,res) => {
+const getAllproducts = async (req,res) => {
+    const products = await db.Productos.findAll();
     res.render("allProducts", {"products": products});
 }
 
